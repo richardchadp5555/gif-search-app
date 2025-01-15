@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 03GifsApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
@@ -25,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+=======
+# 03-gifs-app
+Aplicación desarrollada en Angular para buscar y gestionar GIFs. Incluye funcionalidades como un historial de búsquedas dinámico y el uso de servicios para gestionar datos. 
+>>>>>>> b44cf9b751b91b1847e33db99cefd03a2160cc3e
