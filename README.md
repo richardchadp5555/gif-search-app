@@ -1,32 +1,58 @@
-<<<<<<< HEAD
-# 03GifsApp
+# 03-Gifs-App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
+Aplicación desarrollada en Angular para buscar y gestionar GIFs. Incluye funcionalidades como un historial de búsquedas dinámico y el uso de servicios para gestionar datos.
 
-## Development server
+## Servidor de desarrollo 🚀
+Para iniciar un servidor de desarrollo, ejecuta:
+```bash
+ng serve
+```
+Navega a `http://localhost:4200/`. La aplicación se recargará automáticamente si realizas cambios en los archivos fuente.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Generación de código 🛠️
+Para generar un nuevo componente, ejecuta:
+```bash
+ng generate component nombre-del-componente
+```
+También puedes usar:
+```bash
+ng generate directive|pipe|service|class|guard|interface|enum|module
+```
 
-## Code scaffolding
+## Construcción del proyecto 🏗️
+Para construir el proyecto, ejecuta:
+```bash
+ng build
+```
+Los artefactos de construcción se almacenarán en el directorio `dist/`.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Ejecución de pruebas unitarias 🧪
+Para ejecutar las pruebas unitarias, usa:
+```bash
+ng test
+```
+Se ejecutarán utilizando [Karma](https://karma-runner.github.io).
 
-## Build
+## Ejecución de pruebas end-to-end 🧑‍💻
+Para ejecutar pruebas end-to-end:
+```bash
+ng e2e
+```
+Primero, necesitas añadir un paquete que implemente capacidades de pruebas end-to-end.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Ayuda adicional 📚
+Para obtener más ayuda sobre Angular CLI, ejecuta:
+```bash
+ng help
+```
+O visita la [documentación oficial de Angular CLI](https://angular.io/cli).
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Información del proyecto 💡
+- **Desarrollador**: Richard Chadwick Plaza
+- **Tecnologías utilizadas**: Angular, TypeScript, HTML, CSS
+- **Versión de Angular CLI**: 16.2.16
+- **Versión de Node.js requerida**: 16.20.2 o superior
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-=======
-# 03-gifs-app
-Aplicación desarrollada en Angular para buscar y gestionar GIFs. Incluye funcionalidades como un historial de búsquedas dinámico y el uso de servicios para gestionar datos. 
->>>>>>> b44cf9b751b91b1847e33db99cefd03a2160cc3e
+¡Gracias por explorar este proyecto! ✨
