@@ -12,7 +12,8 @@ export class SearchBoxComponent {
   constructor(private gifsService: GifsService) {}
 
   buscarEtiqueta() {
-    const nuevaEtiqueta = this.inputEtiqueta.nativeElement.value;
+    const nuevaEtiqueta = this.inputEtiqueta.nativeElement.value.trim();
+    if (nuevaEtiqueta.length === 0) return;   // Si es una cadena vacía no registra la etiqueta
 
     // Llama al servicio para registrar la nueva etiqueta
     this.gifsService.buscarEtiqueta(nuevaEtiqueta);
